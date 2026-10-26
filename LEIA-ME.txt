@@ -1,0 +1,11 @@
+ELO NOIR - como editar o site
+
+Trocar o WhatsApp: abra index.html, procure por WHATSAPP (bloco CONFIGURACAO no fim do arquivo) e troque o numero (55 + DDD + numero, so digitos).
+Google Analytics: crie uma propriedade GA4 em analytics.google.com, copie o ID de medicao (G-XXXXXXXXXX) e cole em GA_ID. Cliques nos botoes de WhatsApp e no Instagram viram eventos.
+Adicionar uma peca: coloque a foto na pasta images/ e acrescente uma linha na lista PRODUTOS (nome, descricao, preco, foto, alt).
+Trocar preco ou nome: edite a linha da peca na lista PRODUTOS.
+Peca em destaque (malha de aneis): o texto e o preco ficam no HTML, na secao id="produtos".
+Duvidas frequentes: ficam no HTML, na secao id="duvidas" (cada pergunta e um bloco <details>).
+Instagram: o link https://instagram.com/cheeu_v aparece no botao da secao final e no rodape.
+Imagem de compartilhamento: depois de publicar, troque og:image no <head> pela URL completa da imagem.
+Teste local: abra index.html no navegador (duplo clique).
